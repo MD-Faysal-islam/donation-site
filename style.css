@@ -1,0 +1,69 @@
+h1 {
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 40px;
+    font-size: 48px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+p {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 140px;
+    font-size: 18px;
+}
+
+header {
+    background-image: url(/Images/Hero1.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    font-size: 36;
+    height: 80vh;
+}
+
+.container {
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-bottom: -350px;
+}
+
+.button {
+    font-size: 20px;
+    text-decoration: none;
+    background-color: orangered;
+    border: 1px solid black;
+    padding: 5px 20px;
+    color: white;
+}
+
+.amount {
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    padding: 20px;
+    opacity: 50%;
+
+}
+
+hr {
+    width: 50%;
+
+}
+
+.half-opacity {
+    position: absolute;
+    text-align: center;
+    opacity: 50%;
+}
+
+.select-amount {
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+}
