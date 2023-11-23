@@ -1,69 +1,160 @@
-h1 {
-    text-align: center;
-    padding: 20px 0px;
-    margin-bottom: 40px;
-    font-size: 48px;
-}
-
-h2 {
-    text-align: center;
-    padding: 20px 0px;
-}
-
-p {
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-bottom: 140px;
-    font-size: 18px;
+body {
+    margin: 0px;
+    padding: 0px;
 }
 
 header {
     background-image: url(/Images/Hero1.jpg);
-    background-repeat: no-repeat;
-    background-position: 100%;
     background-size: cover;
-    font-size: 36;
     height: 80vh;
+    text-align: center;
+    justify-content: center center;
 }
 
-.container {
-    align-items: center;
-    text-align: center;
+.header-line {
     color: white;
-    margin-bottom: -350px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    /* Horizontally center the child elements */
+    align-items: center;
+    /* Vertically center the child elements */
+    display: flex;
 }
 
 .button {
-    font-size: 20px;
+    align-items: center;
     text-decoration: none;
-    background-color: orangered;
-    border: 1px solid black;
-    padding: 5px 20px;
     color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: rgb(255, 91, 91);
+}
+
+.container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.header-main {
+    text-align: center;
 }
 
 .amount {
-    margin-left: 20%;
-    margin-right: 20%;
     display: flex;
-    padding: 20px;
-    opacity: 50%;
-
-}
-
-hr {
-    width: 50%;
-
-}
-
-.half-opacity {
-    position: absolute;
-    text-align: center;
-    opacity: 50%;
+    align-items: center;
+    justify-content: center;
 }
 
 .select-amount {
+    padding: 5px 30px;
+    margin: 8px;
+    background-color: rgb(244, 244, 244);
+    align-items: center;
+    font-size: 20px;
+}
+
+.hover-effect {
+    background-color: rgb(255, 229, 229);
+    border: 2px solid rgb(255, 193, 187);
+    color: rgb(247, 25, 0);
+}
+
+.bottom-main {
+    text-align: center;
+    opacity: 50%;
+    font-size: 14px;
+}
+
+hr {
+    width: 30%;
+}
+
+.plan {
+    width: 60%;
+    margin: auto;
+}
+
+.header-plan {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.all-plans {
+    justify-content: center;
+    position: relative;
+    width: 80%;
+    margin: auto;
     display: flex;
+    margin-top: 30px;
+}
+
+.our-plan {
+    padding: 5px 20px;
+    margin: 5px;
+    padding: 30px;
+    /* background-color: rgb(243, 243, 243); */
+}
+
+#plan-1 {
+    background-color: rgb(209, 242, 255);
+}
+
+#plan-2 {
+    background-color: rgb(255, 241, 244);
+}
+
+#plan-3 {
+    background-color: rgb(255, 255, 215);
+}
+
+.extra-section {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.half-container {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.newsletter {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.subscribe-area {
+    background-color: antiquewhite;
+    padding: 50px 20px;
+    align-items: center;
+}
+
+.email-input {
+    padding: 10px 20px;
+    width: 20%;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: wheat;
+    align-items: center;
+    text-align: center;
     padding: 10px;
-    border: 1px solid black;
 }
